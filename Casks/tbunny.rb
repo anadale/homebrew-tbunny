@@ -3,7 +3,7 @@ cask "tbunny" do
   name "tbunny"
   desc "A fast, keyboard-driven terminal UI for managing RabbitMQ clusters"
   homepage "https://github.com/anadale/tbunny"
-  version "0.17.0"
+  version "0.17.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "tbunny" do
   on_macos do
     on_intel do
       url "https://github.com/anadale/tbunny/releases/download/v#{version}/tbunny_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "8d0e5433cd8b33ab7c1915ca42e1309c1c3c6dcdad9f9b55275276b215549a2a"
+      sha256 "02f6224cdb58a64d25a3a22b7f5e3e2f5de416f5c4d7290b6293e6084696f65d"
     end
     on_arm do
       url "https://github.com/anadale/tbunny/releases/download/v#{version}/tbunny_#{version}_Darwin_arm64.tar.gz"
-      sha256 "b9483125b326a187586325f38898c4ee3c936d92b67fd1a91e3db7cb76648153"
+      sha256 "855201f5d01806c1fae421a482c4409150fae034acbf2cd6517c440795678511"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/anadale/tbunny/releases/download/v#{version}/tbunny_#{version}_Linux_x86_64.tar.gz"
-      sha256 "aee6012cc6b28d14ac143b69985ec97476c2056652b441bd81d831709e7ce17f"
+      sha256 "662a0e50fec98e1915690326c8f81bb1ae3f1ce2c1be882864e85b2025abb84f"
     end
     on_arm do
       url "https://github.com/anadale/tbunny/releases/download/v#{version}/tbunny_#{version}_Linux_arm64.tar.gz"
-      sha256 "62beae2a030ddf46b3ab5dcb65271d8e7e2ab3ebae8f7d1ba53c77990c11de3b"
+      sha256 "79473f805c4f1da444b9502eb724418268000c1b7834818ab388230b8243ca7e"
     end
   end
 
