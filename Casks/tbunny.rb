@@ -14,22 +14,22 @@ cask "tbunny" do
   on_macos do
     on_intel do
       url "https://github.com/anadale/tbunny/releases/download/v#{version}/tbunny_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "e5f80854d10e1ed304f3a0a0bcb18e5263a696482d02ead59a0c74b1d195dbe0"
+      sha256 "8d0e5433cd8b33ab7c1915ca42e1309c1c3c6dcdad9f9b55275276b215549a2a"
     end
     on_arm do
       url "https://github.com/anadale/tbunny/releases/download/v#{version}/tbunny_#{version}_Darwin_arm64.tar.gz"
-      sha256 "c5ba7b0903d8b720e37acb78b65bfa43103184ac8a36fe3cb1939f4896de8948"
+      sha256 "b9483125b326a187586325f38898c4ee3c936d92b67fd1a91e3db7cb76648153"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/anadale/tbunny/releases/download/v#{version}/tbunny_#{version}_Linux_x86_64.tar.gz"
-      sha256 "9515939420b365438ee1b89fde0607f7b9b36a3f0a0b7d0260390fa51477e7fe"
+      sha256 "aee6012cc6b28d14ac143b69985ec97476c2056652b441bd81d831709e7ce17f"
     end
     on_arm do
       url "https://github.com/anadale/tbunny/releases/download/v#{version}/tbunny_#{version}_Linux_arm64.tar.gz"
-      sha256 "a90c3863419edf9c5adfe80c85e25321af60601ae7f99c8699df3d24c0d06ff7"
+      sha256 "62beae2a030ddf46b3ab5dcb65271d8e7e2ab3ebae8f7d1ba53c77990c11de3b"
     end
   end
 
